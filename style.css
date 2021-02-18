@@ -1,0 +1,98 @@
+
+body{
+	font-family: Arvo, serif;
+	background: url(https://freenaturestock.com/wp-content/uploads/freenaturestock-1688-1024x683.jpg) no-repeat center center fixed;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.logo{
+	height: 30px;
+}
+
+.navbar-toggler{
+	align-items: right;
+}
+
+.navbar-dark{
+	background:rgba(0,0,0,0.5);
+}
+
+.lists{
+	color: #fff;
+	font-size:17px;
+	margin-right: 35px;
+	padding: 10px 0 10px 0;
+}
+
+.lists:hover{
+	border-bottom: 1px solid #00ffbb;
+	padding-bottom: 9px;
+	cursor: pointer;
+}
+
+.jumbotron{
+	background-color:  transparent;
+	color: #fff;
+	text-align: center;
+	margin: 0;
+	padding: 10px;
+	letter-spacing: 2.5px;
+}
+
+.container{
+	max-width: 1000px;
+}
+.bodyimage{
+	height: 100px;
+
+}
+
+.col-md-4{
+	text-align: center;
+	color: #fff;
+}
+
+.icons p{
+	font-size: 15px;
+}
+
+.contact{
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 300px;
+}
+
+.btn{
+	background-color: rgba(0,255,184, 0.5);
+	border:none;
+	border-radius: 10px;
+	color:#fff;
+	font-size: 18px;
+	padding: 10px 70px;
+	letter-spacing: 1.3px;
+
+}
+
+.btn:hover{
+	background-color: rgba(0,0,0,0.5);
+	color: #fff;
+	border: none;
+}
+
+.footer{
+	background-color: rgba(0,0,0,0.5);
+	color: grey;
+	font-size: 15px;
+	padding: 10px 0;
+	text-align: right;
+}
+
+@media (max-width: 768px){
+	.bodyimage{
+		height: 70px;
+	}
+	.contact{
+		margin-bottom: 100px;
+	}
+}
